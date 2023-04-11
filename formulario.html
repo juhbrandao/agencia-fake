@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Questionário</h1>
+    <form>
+        <label for="campo-nome">Nome:</label>
+        <input id="campo-nome" type="text" placeholder="Digite seu nome aqui" required>
+    </form>
+    <br>
+        <label for="campo-sobrenome">Sobrenome:</label>
+        <input id="campo-sobrenome" type="text" placeholder="Digite seu sobrenome aqui" required>
+    <br><br>
+    <label for="campo-senha">Senha:</label>
+    <input id="campo-senha" type="password" placeholder="Digite sua senha" required> 
+    <br><br>
+    <label for="campo-email">Email</label> 
+    <input id="campo-email" type="email" placeholder="Digite seu email" required>
+    <br><br>
+    <input type="submit" value="Enviar Formulário" required>
+    <br><br>
+    <h2>Animal de estimacao</h2>
+    <input type="radio" id="dog" name="animal" value="Cachorro">
+    <label for="dog">Cachorro</label>
+    
+    <h2>O que voce tem em casa?</h2>
+    
+    <input id="item1" type="checkbox" name="item1" value="TV">
+    <label for="item1">TV</label><br><br>
+   
+    <input id="item2" type="checkbox" name="item2" value="Geladeira">
+    <label for="item2">Geladeira</label><br><br>
+    
+    <input id="item3" type="checkbox" name="item3" value="Fogao">
+    <label for="item3">Fogao</label><br><br>
+    
+    <input id="item4" type="checkbox" name="item4" value="XBOX">
+    <label for="item4">XBOX</label><br><br>
+
+    <h2>Escolha uma cor:</h2>
+    <select name="Cores">
+        <option selected disabled value="">Selecione uma cor</option>
+        <option value="vermelho">Vermelho</option>
+        <option value="azul">Azul</option>
+        <option value="Rosa">Rosa</option>
+        <option value="Amarelo">Amarelo</option>
+    </select>
+
+    <h2>Digite sua mensagem</h2>
+    <textarea required name="mensagem" rows="15" cols="55">Um texto de exemplo</textarea>
+    <br><br>
+    <button>clique aqui</button>
+</body>
+</html>
